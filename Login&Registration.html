@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form & Registration</title>
+    <link rel="stylesheet" href="Login&Registration.css">
+</head>
+
+<body>
+    <div class="container" id="container">
+        <div class="form-box">
+            <div class="button-box">
+                <div id="btn"></div>
+                <button type="button" class="toggle-btn" onclick="login()">Log In</button>
+                <button type="button" class="toggle-btn" onclick="register()">Register</button>
+            </div>
+            <div class="social">
+                <img src="facebook-circle-logo-24.png" alt="">
+                <img src="linkedin-logo-24.png" alt="">
+                <img src="instagram-alt-logo-24.png" alt="">
+            </div>
+            <form action="#" class="input-group" id="Login">
+                <input type="text" placeholder="Your Name" class="input-field" required>
+                <input type="password" class="input-field" placeholder="Your Password" required>
+                <input type="password" class="input-field" placeholder="Confirm Password">
+                <input type="checkbox" class="checkbox"><span>Remember Password</span>
+                <input type="submit" value="Log In " class="submit-btn">
+            </form>
+            <form action="#" class="input-group" id="Register">
+                <input type="text" placeholder="Your Name" class="input-field" required>
+                <input type="email" placeholder="Your Email Id" class="input-field" required>
+                <input type="password" class="input-field" placeholder="Your Password" required>
+                <input type="password" class="input-field" placeholder="Confirm Password">
+                <div class="check">
+                    <input type="checkbox" class="checkbox"><span>I agree to the terms & conditions</span>
+                </div>
+                <input type="submit" value="Register " class="submit-btn">
+            </form>
+        </div>
+    </div>
+</body>
+<script src="Login&Rejistration.js"></script>
+
+</html>
